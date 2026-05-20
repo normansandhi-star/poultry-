@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Poultry Intelligence Investor Access</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    body{
+      font-family:Arial,sans-serif;
+      background:#0f172a;
+      color:#e2e8f0;
+      line-height:1.7;
+    }
+
+    .hero{
+      padding:90px 20px;
+      text-align:center;
+      background:
+      linear-gradient(135deg,#0f172a,#111827,#1e293b);
+    }
+
+    .hero h1{
+      font-size:3rem;
+      color:#38bdf8;
+      margin-bottom:16px;
+    }
+
+    .hero p{
+      max-width:760px;
+      margin:auto;
+      color:#cbd5e1;
+      font-size:1.1rem;
+    }
+
+    .container{
+      max-width:1150px;
+      margin:auto;
+      padding:50px 20px;
+    }
+
+    .section-title{
+      margin-bottom:30px;
+    }
+
+    .section-title h2{
+      color:#f97316;
+      font-size:2rem;
+      margin-bottom:10px;
+    }
+
+    .section-title p{
+      color:#94a3b8;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+      gap:24px;
+    }
+
+    .card{
+      background:#1e293b;
+      border-radius:18px;
+      padding:28px;
+      box-shadow:0 10px 28px rgba(0,0,0,.28);
+      transition:.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-5px);
+    }
+
+    .card h3{
+      color:#f97316;
+      margin-bottom:12px;
+      font-size:1.25rem;
+    }
+
+    .card p{
+      color:#cbd5e1;
+      min-height:88px;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:16px;
+      padding:12px 20px;
+      border-radius:12px;
+      background:#38bdf8;
+      color:#0f172a;
+      text-decoration:none;
+      font-weight:bold;
+      transition:.3s;
+    }
+
+    .btn:hover{
+      background:#0ea5e9;
+    }
+
+    /* MODAL IMAGE GALLERY */
+
+    .modal{
+      display:none;
+      position:fixed;
+      z-index:999;
+      left:0;
+      top:0;
+      width:100%;
+      height:100%;
+      overflow:auto;
+      background:rgba(0,0,0,.88);
+      padding:40px 20px;
+    }
+
+    .modal-content{
+      max-width:1200px;
+      margin:auto;
+    }
+
+    .gallery{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+      gap:24px;
+    }
+
+    .gallery img{
+      width:100%;
+      max-width:1200px;
+      height:auto;
+      border-radius:16px;
+      image-rendering:auto;
+      object-fit:cover;
+      box-shadow:0 8px 24px rgba(0,0,0,.35);
+    }
+
+    .close{
+      color:white;
+      font-size:42px;
+      position:absolute;
+      top:20px;
+      right:40px;
+      cursor:pointer;
+    }
+
+    .footer{
+      text-align:center;
+      padding:40px 20px;
+      color:#94a3b8;
+      border-top:1px solid #1e293b;
+      margin-top:50px;
+    }
+
+    @media(max-width:768px){
+
+      .hero h1{
+        font-size:2.2rem;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- HERO -->
+
+  <section class="hero">
+
+    <h1>Poultry Intelligence Investor Access</h1>
+
+    <p>
+      Precision DOC Breeding Ecosystem berbasis BIO-CONTROL,
+      hatchery intelligence, dan smart poultry operating system.
+    </p>
+
+  </section>
+
+  <!-- CONTENT -->
+
+  <div class="container">
+
+    <div class="section-title">
+
+      <h2>Executive Materials</h2>
+
+      <p>
+        Structured materials for strategic review and investment discussion.
+      </p>
+
+    </div>
+
+    <div class="grid">
+
+      <!-- CARD 1 -->
+
+      <div class="card">
+
+        <h3>1. Executive Proposal</h3>
+
+        <p>
+          Business model, CAPEX, ROI projection,
+          scaling roadmap, dan investment thesis.
+        </p>
+
+        <a href="https://proposal.norman-lab.workers.dev/?v=2
+" class="btn">
+          Open Proposal
+        </a>
+
+      </div>
+
+      <!-- CARD 2 -->
+
+      <div class="card">
+
+        <h3>2. Ebook Seri 1</h3>
+
+        <p>
+          Framework biologis, multi-breed architecture,
+          dan sistem usaha ayam modern.
+        </p>
+
+        <a href="https://drive.google.com/file/d/1ZZkzkIHp3NgpOO7f6CeWXmF7mgI4HNBE/view?usp=drivesdk" class="btn">
+          Open Seri 1
+        </a>
+
+      </div>
+
+      <!-- CARD 3 -->
+
+      <div class="card">
+
+        <h3>3. Ebook Seri 2</h3>
+
+        <p>
+          BIO-CONTROL, sensor system,
+          automation logic, dan smart hatchery.
+        </p>
+
+        <a href="https://ebook-interaktif.norman-lab.workers.dev/#bab1" class="btn">
+          Open Seri 2
+        </a>
+
+      </div>
+
+      <!-- CARD 4 -->
+
+      <div class="card">
+
+        <h3>4. Dashboard Simulation</h3>
+
+        <p>
+          Monitoring suhu, kelembaban,
+          hatchery, airflow, dan produksi real-time.
+        </p>
+
+        <a href="https://simulasi4o.netlify.app/" class="btn">
+          Open Dashboard
+        </a>
+
+      </div>
+
+      <!-- CARD 5 -->
+
+      <div class="card">
+
+        <h3>5. Prototype Blueprint</h3>
+
+        <p>
+          Layout closed house, hatchery architecture,
+          airflow, dan sensor placement.
+        </p>
+
+        <!-- BUTTON OPEN MODAL -->
+
+        <button class="btn" onclick="openGallery()">
+          Open Blueprint
+        </button>
+
+      </div>
+
+      <!-- CARD 6 -->
+
+      <div class="card">
+
+        <h3>6. Financial Projection</h3>
+
+        <p>
+          3-year projection, unit economics,
+          breakeven analysis, dan scale scenario.
+        </p>
+
+        <a href="https://3-year.norman-lab.workers.dev/" class="btn">
+          Open Financials
+        </a>
+
+      </div>
+
+      <!-- CARD 7 -->
+
+      <div class="card">
+
+        <h3>7. Pilot Validation</h3>
+
+        <p>
+          90-day roadmap, breeding validation,
+          hatchability, dan KPI monitoring system.
+        </p>
+
+        <a href="https://90-day.norman-lab.workers.dev/" class="btn">
+          Open Validation
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- IMAGE MODAL -->
+
+  <div id="galleryModal" class="modal">
+
+    <span class="close" onclick="closeGallery()">&times;</span>
+
+    <div class="modal-content">
+
+      <div class="gallery">
+
+        <!-- JPEG 1 -->
+
+        <img 
+          src="https://i.ibb.co.com/wNV9nPnt/Desain-tanpa-judul-20260520-184808-0000.png"
+          alt="Blueprint 1"
+        >
+
+        <!-- JPEG 2 -->
+
+        <img 
+          src="https://i.ibb.co.com/5xnSYSwB/Blueprint.png"
+          alt="Blueprint 2"
+        >
+
+        <!-- JPEG 3 -->
+
+        <img 
+          src="https://i.ibb.co.com/4nfvwd32/20260516-234150-0000.jpg"
+          alt="Blueprint 3"
+        >
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- FOOTER -->
+
+  <div class="footer">
+
+    Poultry Intelligence System • Precision DOC Breeding Ecosystem
+
+  </div>
+
+  <!-- JAVASCRIPT -->
+
+  <script>
+
+    function openGallery(){
+      document.getElementById('galleryModal').style.display='block';
+    }
+
+    function closeGallery(){
+      document.getElementById('galleryModal').style.display='none';
+    }
+
+  </script>
+
+</body>
+</html>
